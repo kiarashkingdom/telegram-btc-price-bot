@@ -1,8 +1,11 @@
 # 🤖 Bitcoin Price Bot
 
+**[English](#english) \ [فارسی](#persian)**
+
 ---
 
-## English
+<a name="english"></a>
+## 🇬🇧 English
 
 Simple Telegram bot that gets BTC price from KuCoin every 10 seconds and sends to your channel.
 
@@ -26,7 +29,8 @@ python bot.py
 
 ---
 
-## فارسی
+<a name="persian"></a>
+## 🇮🇷 فارسی
 
 ربات ساده تلگرام که هر ۱۰ ثانیه قیمت بیت‌کوین رو از صرافی KuCoin گرفته و به کانال شما میفرسته.
 
@@ -47,5 +51,3 @@ CHANNEL_ID="@آیدی_کانال"
 ```
 python bot.py
 ```
-
----
