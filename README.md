@@ -1,80 +1,51 @@
-# 📊 BTC Price Bot
+# 🤖 Bitcoin Price Bot
 
 ---
 
-## [🇬🇧 English](?en) &nbsp;&nbsp;|&nbsp;&nbsp; [🇮🇷 فارسی](?fa)
+## English
 
----
+Simple Telegram bot that gets BTC price from KuCoin every 10 seconds and sends to your channel.
 
-<!-- English Section -->
-<div dir="ltr">
+### Installation
 
-## 🇬🇧 English
-
-**A simple Telegram bot that fetches real-time BTC/USDT price from KuCoin every 10 seconds and sends it to your channel.**
-
-### Features
-- ⏱️ Real-time updates every 10 seconds
-- 📡 Powered by KuCoin API
-- 🤖 Works with Telegram & Bale Messenger
-- 🔧 Easy to customize
-
-### Quick Start
-```bash
-# Install dependencies
+1. Install dependencies:
+```
 pip install pyTelegramBotAPI requests
+```
 
-# Set environment variables
-export BOT_TOKEN="your_bot_token"
-export CHANNEL_ID="@your_channel_id"
+2. Set your token and channel:
+```
+BOT_TOKEN="your_bot_token"
+CHANNEL_ID="@your_channel_id"
+```
 
-# Run the bot
+3. Run the bot:
+```
 python bot.py
 ```
 
-### ⚠️ Security Note
-> **Never commit your real token to GitHub!** Always use environment variables.
-
-</div>
-
 ---
 
-<!-- Persian Section -->
-<div dir="rtl">
+## فارسی
 
-## 🇮🇷 فارسی
+ربات ساده تلگرام که هر ۱۰ ثانیه قیمت بیت‌کوین رو از صرافی KuCoin گرفته و به کانال شما میفرسته.
 
-**ربات ساده تلگرام که هر ۱۰ ثانیه قیمت لحظه‌ای بیت‌کوین را از صرافی KuCoin گرفته و به کانال شما ارسال می‌کند.**
+### نصب و اجرا
 
-### ویژگی‌ها
-- ⏱️ بروزرسانی خودکار هر ۱۰ ثانیه
-- 📡 استفاده از API صرافی KuCoin
-- 🤖 قابل استفاده در تلگرام و بله‌مسنجر
-- 🔧 تغییرات آسان
-
-### شروع سریع
-
-```bash
-# نصب پیش‌نیازها
+1. نصب پیش‌نیازها:
+```
 pip install pyTelegramBotAPI requests
+```
 
-# تنظیم متغیرهای محیطی
-export BOT_TOKEN="توکن_ربات_شما"
-export CHANNEL_ID="@آیدی_کانال"
+2. تنظیم توکن و آیدی کانال:
+```
+BOT_TOKEN="توکن_ربات_شما"
+CHANNEL_ID="@آیدی_کانال"
+```
 
-# اجرای ربات
+3. اجرای ربات:
+```
 python bot.py
 ```
 
-### ⚠️ نکته امنیتی
-> **هرگز توکن واقعی خود را در گیت‌هاب قرار ندهید!** همیشه از متغیرهای محیطی استفاده کنید.
-
-</div>
-
 ---
-
-## 📜 License
-MIT © [Kiarash]
-
----
-*⭐ Star this repo if you found it useful!*
