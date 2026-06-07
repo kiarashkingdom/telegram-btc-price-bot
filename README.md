@@ -7,13 +7,14 @@
 <a name="english"></a>
 ## 🇬🇧 English
 
-Simple Telegram bot that gets BTC price from KuCoin every 10 seconds and sends to your channel.
+Telegram bot that gets BTC price from KuCoin every 10 seconds and sends to your channel.
 
 ### Installation
 
 1. Install dependencies:
 ```
-pip install pyTelegramBotAPI requests
+pip install pyTelegramBotAPI
+pip install requests
 ```
 
 2. Set your token and channel:
@@ -38,7 +39,8 @@ python bot.py
 
 1. نصب پیش‌نیازها:
 ```
-pip install pyTelegramBotAPI requests
+pip install pyTelegramBotAPI
+pip install requests
 ```
 
 2. تنظیم توکن و آیدی کانال:
